@@ -1,3 +1,6 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
 const heading = React.createElement("h1", { class: "heading" }, "Hello World")
 const root = ReactDOM.createRoot(document.getElementById('root'));
 //reaact is placing heading in div tag which is root.

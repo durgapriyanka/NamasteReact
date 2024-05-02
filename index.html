@@ -12,10 +12,11 @@
 
     <div id="root"></div>
 
-    <!-- The order of  these files are mandatory. If we keep line number 18 above 16 it wil not work, It will say React is not found  -->
-    <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
-    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
-    <script src="./app.js"></script>
+    <!-- The order of  these files are mandatory. If we keep line number 18 above 16 it wil not work, It will say React is not found. You can delete
+    these 2 lines when react and react dom are installed through npm-->
+    <!-- <script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+    <script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script> -->
+    <script type="module" src="./app.js"></script>
 </body>
 
 </html>
