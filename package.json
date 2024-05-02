@@ -1,0 +1,26 @@
+{
+  "name": "namstereact",
+  "version": "1.0.0",
+  "description": "Learning React",
+  "main": "app.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/durgapriyanka/NamasteReact.git"
+  },
+  "keywords": [
+    "NamasteReact",
+    "PriyankaLearningReact"
+  ],
+  "author": "Durga Priyanka Donthamsetti",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/durgapriyanka/NamasteReact/issues"
+  },
+  "homepage": "https://github.com/durgapriyanka/NamasteReact#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  }
+}
