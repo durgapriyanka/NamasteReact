@@ -35,6 +35,18 @@
     width: 150px;
     margin: 5px;
 }
+.shimmer-container {
+    display: flex;
+    /* justify-content: space-between; */
+    flex-wrap: wrap;
+}
+.shimmer-card 
+{
+    height : 300px;
+    width: 150px;
+    margin: 5px;
+    background-color: #f0f0f0
+}
 
 .res-card:hover {
     cursor: pointer;
@@ -49,4 +61,9 @@
 
 .cuisines {
     word-wrap: break-word;
+}
+
+.btnName
+{
+    margin : 0px 20px
 }

@@ -3,7 +3,6 @@ import { ITEM_URL } from "../utils/constants";
 
 const RestaurantCard = (props) => {
     const { resData } = props;
-    console.log(resData)
     const { name, cloudinaryImageId , costForTwo, cuisines, avgRating, sla}  = resData?.info
     return (
       <div className="res-card" style={{ backgroundColor: "#f0f0f0" }}>
