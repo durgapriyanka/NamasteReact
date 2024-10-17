@@ -2,6 +2,7 @@ import RestaurantCard from "./RestaurantCard";
 import resObj from "../utils/mockData";
 import Shimmer from "./Shimmer";
 import { useEffect, useState } from "react";
+import { Link } from "react-router-dom";
 
 const Body = () => {
   //Defining a State Variable to filter the Restraunt Objects whose rating is above 4.5 using a button.
@@ -45,7 +46,7 @@ const Body = () => {
           className="topRatedRestaurants"
           onClick={() => {
             const FilteredData = listOfRestaurants.filter(
-              (res) => res.info.avgRating > 4
+              (res) => res.info.avgRating > 4.3
             );
             setFilteredRestaurants(FilteredData);
           }}
@@ -73,7 +74,7 @@ const Body = () => {
       </div>
       <div className="res-container">
         {filteredRestaurants.map((res) => (
-          <RestaurantCard key={res.info.id} resData={res} />
+          <Link key={res.info.id} to={"restaurant/" + res.info.id}><RestaurantCard resData={res} /></Link>
         ))}
       </div>
     </div>
